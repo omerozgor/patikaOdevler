@@ -8,7 +8,7 @@ public class Main {
 
         try {
             System.out.print("Üssü alınacak sayıyı giriniz: ");
-            int n = input.nextInt();
+            int n = input.nextInt();//
 
             System.out.print("Üs değerini giriniz: ");
             int r = input.nextInt();
