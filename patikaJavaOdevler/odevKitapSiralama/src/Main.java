@@ -1,5 +1,6 @@
 import java.time.LocalDate;
 import java.util.Comparator;
+import java.util.LinkedList;
 import java.util.TreeSet;
 
 public class Main {
@@ -9,7 +10,8 @@ public class Main {
         Book ys = new Book("Yalanın Siyaseti", "Yalın Alpay", 289, LocalDate.of(2017, 1, 26));
         Book tutunamayanlar = new Book("Tutunamayanlar", "Oğuz Atay", 687, LocalDate.of(1989, 1, 26));
         Book pka = new Book("Puslu Kıtalar Atlası", "İhsan Oktay Anar", 458, LocalDate.of(1991, 1, 26));
-
+        LinkedList linkedList = new LinkedList();
+        linkedList.add
         TreeSet<Book> set = new TreeSet<>();
         set.add(gny);
         set.add(denemeler);
